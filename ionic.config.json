@@ -1,0 +1,7 @@
+{
+  "name": "Aldota",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
