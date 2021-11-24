@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class ListComponent implements OnInit {
 
 @Input() obtenApi;
-@Input() Icon;
+@Input() icon;
 
 id:string
 path:string
@@ -21,7 +21,7 @@ path:string
   showItem(item){
     let urlElements = item.url.split("/");
     console.log(urlElements);
-    this.id= urlElements[urlElements.length-5];
+    this.id= urlElements[urlElements.length];
     this.path= urlElements[urlElements.length];
     console.log(this.path);
     
